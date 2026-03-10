@@ -1,0 +1,35 @@
+tankerkoenig_api: "API_KEY_HIER"
+
+telegram:
+  token: "BOT_TOKEN"
+  chat_id: "CHAT_ID"
+
+settings:
+  check_interval: 600
+  price_drop: 0.02
+  radius_km: 6
+
+locations:
+
+  home:
+    name: "Zuhause"
+    lat: 50.8237
+    lon: 6.1223
+    fuels: ["diesel","e10"]
+
+  work:
+    name: "Arbeit"
+    lat: 51.0605
+    lon: 6.0957
+    fuels: ["diesel"]
+
+  plz52134:
+    name: "PLZ 52134"
+    lat: 50.8237
+    lon: 6.1223
+    fuels: ["diesel","e10"]
+
+heating_oil:
+  enabled: true
+  plz: 52134
+  drop_threshold: 1.0
